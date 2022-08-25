@@ -7,6 +7,7 @@ int main()
 
     printf("Enter your name and then a phrase: ");
     scanf("%s", name); // %s for string
+    // Also not that i dont put & for string input
     printf("Hello %s!\n", name);
     /* 
     The scanf function will not include spaces so only one word 
@@ -19,11 +20,3 @@ int main()
 
     return 0;
 }
-
-/*
-Output:
-                                  [             Input              ]  
-Enter your name and then a phrase: Siddhesh Never gonna give you up
-Hello Siddhesh!
-Your phrase was: Never gonna give you up
-*/
