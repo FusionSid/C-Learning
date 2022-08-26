@@ -16,6 +16,8 @@ int main(){
         printf("Number is something else");
     }
 
+    // Another thing i can do is ternery statement/operater thing like condition ? value_if_true : value_if_false
+
     /*
     not = !
     and = &&
