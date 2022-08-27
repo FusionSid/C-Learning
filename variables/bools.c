@@ -4,7 +4,7 @@
 // or use #define to make them
 
 int main()
-{  
+{
     /* Booleans: */
 
     // Creating a bool in c

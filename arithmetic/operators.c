@@ -35,10 +35,10 @@ int main()
     printf("Mod: %i\n", mod);
 
     int x = 2;
-    x++;                  // will increment x by 1
+    x++;                    // will increment x by 1
     printf("\nX: %i\n", x); // x should be 3
 
-    x--;                  // will decrement x by 1
+    x--;                           // will decrement x by 1
     printf("X after --: %i\n", x); // x should be 2 again
 
     /*
@@ -67,7 +67,7 @@ int main()
     So to calculate the power for x^y we use the pow (short for power) function from the math header file
     Remember to #include <math.h> at the top
     */
-    
+
     // To calculate 2^3 (which = 8) I do this:
     x = pow(2, 3); // pow func takes 2 args: x = base, y = exponent
     printf("\n2^3 = %i\n", x);

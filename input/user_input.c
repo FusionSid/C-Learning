@@ -9,8 +9,8 @@ int main()
     scanf("%s", name); // %s for string
     // Also not that i dont put & for string input
     printf("Hello %s!\n", name);
-    /* 
-    The scanf function will not include spaces so only one word 
+    /*
+    The scanf function will not include spaces so only one word
     If you want more you can use the fgets function
     */
     char phrase[42];

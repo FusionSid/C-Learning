@@ -54,6 +54,6 @@ int main()
 
     fprintf(number_file, "%d", num);
     fclose(number_file);
-    
+
     return 0;
 }

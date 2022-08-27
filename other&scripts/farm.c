@@ -2,7 +2,8 @@
 
 int animals(int chickens, int cows, int pigs);
 
-int main() {
+int main()
+{
     int ans;
 
     ans = animals(2, 3, 5);
@@ -17,6 +18,7 @@ int main() {
     return 0;
 }
 
-int animals(int chickens, int cows, int pigs) {
+int animals(int chickens, int cows, int pigs)
+{
     return (chickens * 2) + (cows * 4) + (pigs * 4);
 }

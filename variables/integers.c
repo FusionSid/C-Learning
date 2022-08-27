@@ -2,7 +2,7 @@
 #include <stdbool.h> // for booleans
 
 int main()
-{   
+{
     /* Integers: */
 
     // Defining a variable
@@ -19,7 +19,7 @@ int main()
     // Printing out an integer
     printf("A: %i\nB: %i\nC: %i\n", a, b, c);
 
-    /* 
+    /*
     The max length for an int is 2147483647 so if you wanted
     to store a larget number you would use long
     */

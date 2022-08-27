@@ -23,7 +23,7 @@ int main()
 
     // to access member of a struct do struct.member
     printf("Age: %i First letter of first name: %c\n", sid.age, sid.firstLetterName);
-    
+
     // also i can do this all when creating the person struct like
     struct Person rick = {56, 'R'};
     printf("Age: %i First letter of first name: %c\n", rick.age, rick.firstLetterName);

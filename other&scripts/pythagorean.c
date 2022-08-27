@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main()
+{
     double a, b;
-    
+
     printf("Enter length of side 1 (cm): ");
     scanf("%lf", &a);
 

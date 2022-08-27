@@ -2,7 +2,8 @@
 
 // Type casting C
 
-int main() {
+int main()
+{
     // Here im making 2 int variables 13, and 2
     int number = 13;
     int divide_by = 2;
@@ -13,7 +14,7 @@ int main() {
 
     // Lets type case the number to a float so we can divide it
     // To use the type case operater i do: (<datatype>) <var>
-    printf("13 / 2 = %.1f\n", (double) number / divide_by);
+    printf("13 / 2 = %.1f\n", (double)number / divide_by);
 
     return 0;
 }

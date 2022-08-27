@@ -5,7 +5,7 @@ A function that returns nothing or none (just like the amount of bitches i get) 
 This is above main so no define error eeee or do below for say hello:
 param here i take in is name which is a char array / string
 */
-void sayEAndHello(char name[]) 
+void sayEAndHello(char name[])
 {
     printf("E and Hello %s\n", name);
 }
@@ -26,11 +26,11 @@ int main()
     return 0;
 }
 
-int area(int x, int y) {
+int area(int x, int y)
+{
     // return returns it
     return x * y;
 }
-
 
 /*
 functions be like :moyai:

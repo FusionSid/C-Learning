@@ -2,7 +2,7 @@
 #include <stdbool.h> // for booleans
 
 int main()
-{   
+{
     /* Floats: */
 
     // Using the float keyword to make a float
@@ -23,6 +23,6 @@ int main()
     Note: Max length of float is 3.4 × 10^38
     if you want a number bigger/precise than that you use double
     */
-   
+
     return 0;
 }

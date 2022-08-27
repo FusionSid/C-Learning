@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     // A pointer is a variable that stores the memory address of another variable as its value.
 
     int number = 69420;
@@ -10,7 +11,7 @@ int main(){
     // pointer for number
     // for int pointer i do int*
 
-    int* ptr = &number;
+    int *ptr = &number;
     printf("Memmory address: %p\n", ptr); // Reference: Output the memory address of number with the pointer
-    printf("Value: %i\n", *ptr); // Dereference: Output the value of number with the pointer (remember to put *)
+    printf("Value: %i\n", *ptr);          // Dereference: Output the value of number with the pointer (remember to put *)
 }
