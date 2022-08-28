@@ -72,22 +72,5 @@ int main()
     x = pow(2, 3); // pow func takes 2 args: x = base, y = exponent
     printf("\n2^3 = %i\n", x);
 
-    /*
-    Bitwise operators
-    Operaters for bit level programming
-
-    & AND
-    | OR
-    ^ XOR
-    << left shift
-    >> right shift
-    */
-
-    int number1 = 5; // in binary that is 00000101
-    int number2 = 3; // in binary that is 00000011
-    int number3 = number1  & number2; // 00000001
-
-    printf("%i", number3);
-
     return 0;
 }
