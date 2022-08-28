@@ -40,5 +40,6 @@ int main()
     y = x >> 1; // shifted right 1 = 00000101 (5) | If i were to shift again or do >> 2 in the begining the value of y would be 2
     printf("Right shift: %i\n", y);
 
+    // Basically shifting right halfs the number and shifting left doubles the number (note: since int if half the number is .5 it truncates that shit)
     return 0;
 }
